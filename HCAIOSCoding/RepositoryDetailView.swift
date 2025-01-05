@@ -13,9 +13,9 @@ struct RepositoryDetailView: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
-            Text(repository.name)
-                .font(.largeTitle)
-            Text(repository.description ?? "No description available")
+            Text("Repository Name: \(repository.name)")
+                .font(.body)
+            Text("Description: \(repository.description ?? "No description available")")
                 .font(.body)
             Text("Language: \(repository.language ?? "Unknown")")
                 .font(.callout)
@@ -24,8 +24,7 @@ struct RepositoryDetailView: View {
             Text("Forks: \(repository.forks_count)")
                 .font(.callout)
             Text("Last updated: \(repository.updated_at)")
-                .font(.footnote)
-                .foregroundColor(.gray)
+                .font(.callout)
             Spacer()
         }
         .padding()
