@@ -12,16 +12,16 @@ A SwiftUI-based iOS application to explore GitHub repositories. This app allows 
 
 ## Screenshots
 
-### Home Screen
-The home screen lists all GitHub repositories, with options to filter by language. A progress indicator appears while loading data.
+### Repositories Home Screen
+The home screen lists all GitHub repositories, with options to filter by language.
 
-![Simulator Screenshot - iPhone 16 Pro - 2025-01-05 at 15 55 59](https://github.com/user-attachments/assets/0b9852de-fd23-4651-b04b-e247488c9b29)
-
+![Repositories Home](https://github.com/user-attachments/assets/f31f0d52-b216-4478-a4ca-f8a0c61bdcd0)
 ---
 
 ### Filtered Repositories
-Users can select a language filter to view only repositories written in that language. For example, selecting "Java" filters the list accordingly.
+Users can select a language filter to view only repositories written in that language. For example, selecting "Python" filters the list accordingly.
 
+![Python Language Repositories ](https://github.com/user-attachments/assets/9e898700-647a-47ec-a9ec-3bf62b0743f6)
 
 
 ---
@@ -29,8 +29,13 @@ Users can select a language filter to view only repositories written in that lan
 ### Repository Details
 When a repository is selected, the app navigates to a detailed view showing the repository's description, language, stars, forks, and last updated date.
 
+![Repositories details](https://github.com/user-attachments/assets/66e8468e-1887-438a-96e4-7f66f5885dd6)
 
 
+### Pagination
+Loads more repositories as the user scrolls to the bottom of the list.
+
+![Repositories Pagination](https://github.com/user-attachments/assets/90ab96fb-8874-4902-b01c-453ba6c47700)
 ---
 
 ## Implementation
