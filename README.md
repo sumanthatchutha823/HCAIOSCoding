@@ -15,7 +15,7 @@ A SwiftUI-based iOS application to explore GitHub repositories. This app allows 
 ### Home Screen
 The home screen lists all GitHub repositories, with options to filter by language. A progress indicator appears while loading data.
 
-
+![Simulator Screenshot - iPhone 16 Pro - 2025-01-05 at 15 55 59](https://github.com/user-attachments/assets/0b9852de-fd23-4651-b04b-e247488c9b29)
 
 ---
 
